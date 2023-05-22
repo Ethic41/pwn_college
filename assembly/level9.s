@@ -7,9 +7,9 @@
 
 
 
-# assemble with: gcc -nostdlib -o file file.s
-# dump with: objdump -M intel -d file
-# copy binary with: objcopy --dump-section .text=file_binary file
+# assemble with: gcc -nostdlib -o level9 level9.s
+# dump with: objdump -M intel -d level9
+# copy binary with: objcopy --dump-section .text=level9_binary level9
 
 .intel_syntax noprefix
 .global _start
