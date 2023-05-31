@@ -22,4 +22,3 @@ finish:
     mov rax, 0x3c;
     syscall;
 
-
